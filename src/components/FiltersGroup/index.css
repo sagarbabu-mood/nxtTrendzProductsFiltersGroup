@@ -1,0 +1,59 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.categories-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.category-button {
+  background-color: transparent;
+  border: 0;
+  font-size: 20px;
+}
+
+.category-item {
+  list-style: none;
+  margin-left: 0;
+}
+
+.rating-image {
+  width: 100px;
+}
+
+.clear-filters-button {
+  border: 1px solid #0967d2;
+  background-color: transparent;
+  color: #0967d2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.up {
+  color: #0f172a;
+  margin-left: 5px;
+}
